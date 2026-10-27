@@ -12,6 +12,5 @@ export async function frontpage (){
         ${pageHeading('Lige nu')}
         ${data && data.products.map((item) => `<p>${item.title}</p>`).join('')}
         `
-
     return (page)
 }
